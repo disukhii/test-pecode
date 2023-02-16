@@ -1,0 +1,27 @@
+{
+  "name": "cypress-pecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disukhii/test-pecode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disukhii/test-pecode/issues"
+  },
+  "homepage": "https://github.com/disukhii/test-pecode#readme",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
